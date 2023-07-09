@@ -10,7 +10,7 @@ BetterErrors.application_root = __dir__
 BetterErrors::Middleware.allow_ip!('0.0.0.0/0.0.0.0')
 
 get("/") do
-  "Hello World"
+  erb(:elephant)
 end
 
 get("/zebra") do
